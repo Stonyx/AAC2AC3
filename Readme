@@ -1,0 +1,12 @@
+AAC to AC3 Bash Script Readme
+
+This script takes a MP4 or MKV file with an AAC audio track as input and outputs a MKV file with
+an AC3 audio track.
+
+Needed tools:
+MKVToolnix (install Ubuntu mkvtoolnix package)
+FAAD2 (install Ubuntu faad package)
+Aften (install Ubuntu aften package)
+
+Usage:
+AAC2AC3 Input_File Output_File [Optional_Working_Directory]
