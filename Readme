@@ -1,12 +1,21 @@
-AAC to AC3 Bash Script Readme
+AAC to AC3 Bash Schell Script Readme
 
-This script takes a MP4 or MKV file with an AAC audio track as input and outputs a MKV file with
-an AC3 audio track.
+AAC2AC3 is a Bash Shell script that converts a MP4 or MKV video file with an AAC audio track to a
+MKV video file with an AC3 audio track.
 
-Needed tools:
+The resulting AC3 audio track can be appended (resulting in a MKV video file that contains the
+existing audio tracks plus the new AC3 audio track) or the resulting AC3 audio track can replace
+all existing audio tracks (resulting in a MKV video file that contains only the new AC3 audio
+track).
+
+Required tools:
 MKVToolnix (install Ubuntu mkvtoolnix package)
 FAAD2 (install Ubuntu faad package)
 Aften (install Ubuntu aften package)
+
+Required information asked during conversion:
+AAC audio track sample rate
+AAC audio track channel count
 
 Usage:
 AAC2AC3 Input_File Output_File [Optional_Working_Directory]
